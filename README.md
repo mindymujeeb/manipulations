@@ -40,6 +40,7 @@ Start the server
 ## Tech Stack (Client Side)
 
 - React
+- HTML
 - CSS
 - Javascript
 
