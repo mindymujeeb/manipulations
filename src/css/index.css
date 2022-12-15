@@ -1,0 +1,145 @@
+/* open sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #cbcaca5f;
+  color: #232921;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 0 0;
+  gap: 2rem;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: start center;
+  gap: 3rem;
+}
+
+.container-1{
+  padding: 1rem 0;
+}
+
+.container-2{
+  padding: 1rem 0;
+  place-self: start start;
+}
+
+.container-3{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 2rem 3rem 2rem;
+}
+
+.heading-text-manipulations{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.line-break{
+  margin: 1.5rem;
+  width: 97%;
+  height: 0.1rem;
+  background-color: #23292120;
+}
+
+.heading{
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-decoration-style:wavy;
+  margin: 0 0 0.2rem 0;
+}
+
+.text-area{
+  width: 30rem;
+  height: 15rem;
+  word-spacing: 0.01em;
+  letter-spacing: 0.01em;
+  border: 0.2px solid #232921;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: rgba(211, 211, 211, 0.399);
+  text-decoration-color: lightgray;
+}
+
+.text-area:active{
+  outline: none;
+}
+
+.description{
+  font-size: 1.2rem;
+  margin: 2rem 0 0 0;
+  text-transform: uppercase;
+  word-spacing: 0.01em;
+}
+
+.preview-text{
+  width: 30rem;
+  text-align: justify;
+  overflow-wrap: break-word;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+}
+
+.words{
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+.button-icon{
+  background-color: lightgrey;
+  margin-left: 1rem;
+  padding: 0.5rem 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.icons{
+  height: 1rem;
+  width: auto;
+}
+
+.icons-light{
+  height: 2.2rem;
+  margin-left: 0.1rem;
+  width: auto;
+  display: none;
+}
+
+.icons-dark{
+  height: 3rem;
+  margin-left: 0.1rem;
+  width: auto;
+}
+
+.button{
+  border: none;
+  background-color: lightgrey;
+}
+
+@media screen and (max-width:780px) {
+  html{
+    font-size: 10px;
+  }
+
+  .text-area{
+    width: 100%;
+  }
+}
