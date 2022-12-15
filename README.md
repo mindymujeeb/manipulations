@@ -13,6 +13,12 @@ Website useful for performing various String operations as mentioned below
 
 ## Run Locally
 
+link of website
+
+```bash
+  https://manipulations.netlify.app
+```
+
 Go to the project directory
 
 ```bash
