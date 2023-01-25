@@ -143,6 +143,6 @@ export default function FormComponent(props) {
           <button className='button' type='submit'>Clear</button>
         </div>
       </div>
-    </div>
+      </div>
     )
   }
