@@ -155,7 +155,7 @@ body{
 
 @media screen and (max-width:996px) {
   html{
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .text-area{
@@ -181,7 +181,7 @@ body{
 
 @media screen and (max-width:768px) {
   html{
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .text-area, .container-2{
